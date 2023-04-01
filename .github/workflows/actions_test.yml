@@ -22,6 +22,11 @@ jobs:
       run: |
         sudo apt install graphviz
         pyreverse -o png my_module
+    - name: Upload class diagram
+      uses: actions/upload-artifact@v2
+      with:
+        name: class-diagram
+        path: classes.png
 
 
     #- run: python my_script.py
