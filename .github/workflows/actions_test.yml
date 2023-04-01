@@ -21,7 +21,7 @@ jobs:
     - name: Generate UML
       run: |
         sudo apt install graphviz
-
+        pyreverse -o png my_module
 
 
     #- run: python my_script.py
