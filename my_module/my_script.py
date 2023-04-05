@@ -9,3 +9,6 @@ class MyClass:
 
     def setName(self, name):             # setName()メソッド
         self.name = name
+
+def for_release_tag():
+    return True
