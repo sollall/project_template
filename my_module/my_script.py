@@ -12,3 +12,6 @@ class MyClass:
 
 def for_release_tag():
     return True
+
+def ppp():
+    return "aaa"
